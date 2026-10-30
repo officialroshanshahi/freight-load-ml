@@ -362,7 +362,7 @@ python -m streamlit run app/app.py
 git clone https://github.com/officialroshanshahi/freight-load-ml.git
 cd freight-load-ml
 
-# Create and activate a Python virtual environment
+# Create Python virtual environment
 py -3.14 -m venv .venv-score
 
 # Install the project and its dependencies using requirements_score.txt
