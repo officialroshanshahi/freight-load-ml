@@ -364,7 +364,6 @@ cd freight-load-ml
 
 # Create and activate a Python virtual environment
 py -3.14 -m venv .venv-score
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install the project and its dependencies using requirements_score.txt
 .\.venv-score\Scripts\python.exe -m pip install -r requirements_score.txt
