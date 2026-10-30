@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# python
+__pypackages__/
+.venv/
+venv/
+ENV/
+
+# Environment variables & secrets
+.env
+
+# Streamlit (if applicable)
+.streamlit/secrets.toml
+
+# Database
+*.db
+
+# Models & Weights
+models/
+
+# Temp folder & IDE settings
+__temp_pipreqsnb_folder/
+.vscode/
+.idea/
+
+# OS Specific junk
+.DS_Store
+Thumbs.db
+
+# Python Packaging build outputs
+build/
+dist/
+*.egg-info/
+
+# datasets & others
+processed/
+new/
+reports/
+logs/
+alerts/
+*.pdf
+experiments/
+shap/
